@@ -1,8 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
 .d-flex {
     display: flex;
 }
 .list-unstyled {
     list-style: none;
+}
+
+.justify-content-center {
+    justify-content:center;
+}
+ 
+.text-center {
+    text-align: center;
 }
 
 body {
@@ -13,11 +30,11 @@ body {
 .main-nav {
     background-color: deepskyblue;
     color: white;
+    width: 100%;
 }
  
 .main-nav img {
     height: 48px;
-    margin: 0;
 }
  
 .main-nav h3 {
@@ -33,10 +50,32 @@ body {
 .main-nav li {
     line-height: 48px;
     font-size: 30px;
-    text-align: center;
     padding: 0 40px;
 }
  
 .main-nav li:hover {
     background-color: mediumblue;
 }
+ 
+main img {
+    opacity:0.5;
+}
+ 
+section h2 {
+    font-size: 80px;
+}
+ 
+section img {
+     width: 30%;
+     height: 30%;
+     margin:0 auto;
+}
+ 
+.cardtitle {
+    background:linear-gradient(#40E0D0,#FF8C00,#FF0080);
+    margin: 10px auto;
+}
+ 
+
+ 
+
