@@ -1,0 +1,42 @@
+.d-flex {
+    display: flex;
+}
+.list-unstyled {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+
+}
+
+.main-nav {
+    background-color: deepskyblue;
+    color: white;
+}
+ 
+.main-nav img {
+    height: 48px;
+    margin: 0;
+}
+ 
+.main-nav h3 {
+    font-size: 36px;
+    margin: 0 ;
+}
+ 
+.main-nav ul {
+     margin: 0 ;
+    
+}
+ 
+.main-nav li {
+    line-height: 48px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 40px;
+}
+ 
+.main-nav li:hover {
+    background-color: mediumblue;
+}
