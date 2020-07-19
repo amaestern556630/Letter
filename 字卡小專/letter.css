@@ -81,6 +81,7 @@ main h2 {
 }
  
 .creat { 
+    line-height: 70px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -91,8 +92,24 @@ main h2 {
  
 .creat p {
     margin-top: 5px;
+    color: red;
     
 }
+ 
+.show {
+    font-size: 30px;
+}
+ 
+.show p {
+    background-color: khaki;
+    margin: 20px auto;
+    color: tomato;
+    
+}
+ 
+.show img {
+    padding: 50px;
+} 
 
 
  
