@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
 }
+ 
+body{
+    background: antiquewhite;
+
+}
+
 .wrapper{
     max-width: 1107px;
     margin: 0 auto;
@@ -31,6 +37,7 @@ body {
     background-color: deepskyblue;
     color: white;
     width: 100%;
+    border: black 1px solid;
 }
  
 .main-nav img {
@@ -51,14 +58,18 @@ body {
     line-height: 48px;
     font-size: 30px;
     padding: 0 40px;
+    cursor: pointer;
 }
  
 .main-nav li:hover {
     background-color: mediumblue;
+    color: yellow;
 }
  
 main {
+    
     position: relative;
+    
 }
  
 main img {
@@ -81,6 +92,8 @@ main h2 {
 }
  
 .creat { 
+    background-color: white;
+    
     line-height: 70px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -91,13 +104,14 @@ main h2 {
 }
  
 .creat p {
-    margin-top: 5px;
     color: red;
     
 }
  
 .show {
+    background-color: cornsilk;
     font-size: 30px;
+    
 }
  
 .show p {
@@ -106,10 +120,33 @@ main h2 {
     color: tomato;
     
 }
- 
 .show img {
-    padding: 50px;
-} 
+     width: 1107px;;
+ }
+
+.howto {
+    background-color: aquamarine;
+}
+ 
+.howto h1 {
+    font-size: 30px;
+    margin-right: 70px;
+}
+ 
+.howto li {
+    font-size: 30px;
+    color: azure;
+    padding: 0 40px;
+}
+ 
+.howto li:hover {
+    background: mediumblue;
+    color: darkorange;
+}
+  
+
+
+
 
 
  
