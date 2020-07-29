@@ -123,25 +123,35 @@ main h2 {
 .show img {
      width: 1107px;;
  }
+  
+ .howtob {
+    background-color: aquamarine;
+    font-size: 48px;
+    text-align: center;
+ }
 
 .howto {
-    background-color: aquamarine;
+    background-color: orange;
 }
- 
-.howto h1 {
-    font-size: 30px;
-    margin-right: 70px;
-}
- 
+.howto ul {
+    margin-top: 10px;
+} 
 .howto li {
-    font-size: 30px;
+    padding: 0 50px;
+    font-size: 40px;
     color: azure;
-    padding: 0 40px;
+    margin-right: 66px;
+    cursor: pointer;
 }
  
 .howto li:hover {
     background: mediumblue;
     color: darkorange;
+}
+  
+.showhow img{
+    width: 1107px;
+    
 }
   
 

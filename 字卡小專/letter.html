@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="letter.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="letter.js"></script>
 </head>
 
 <body>
@@ -34,30 +36,31 @@
 
         <b>
             <div>
-                <p class="text-center">數字卡</p> <img src="image/2.jpg" alt="">
+                <p class="text-center">數字卡</p> <img src="image/2.jpg">
             </div>
 
             <div>
-                <p class="text-center">字母卡</p><img src="image/20.jpg" alt>
+                <p class="text-center">字母卡</p><img src="image/20.jpg">
             </div>
             <div>
-                <p class="text-center">注音卡</p> <img src="image/1.jpg" alt="">
+                <p class="text-center">注音卡</p><img src="image/1.jpg">
             </div>
             <div>
-                <p class="text-center">沙包</p><img src="image/35.jpg" alt="">
+                <p class="text-center">沙包</p><img src="image/35.jpg">
             </div>
         </b>
     </section>
-    <section class="wrapper d-flex howto">
-        <b><h1>玩法介紹</h1></b>
+    <div class="howtob wrapper">玩法介紹</div>
+    <section class="wrapper  howto">
         <ul class=" list-unstyled d-flex">
-            <li>數字卡</li>
-            <li>字母卡</li>
-            <li>注音卡</li>
-            <li>沙包</li>
+            <li id="numbercard" >數字卡</li>
+            <li id="lettercard" >字母卡</li>
+            <li id="zuincard" >注音卡</li>
+            <li id="seedbag" >沙包</li>
         </ul>
+        <div class="showhow"><img src="image/42.jpg" alt=""></div>
     </section>
-    <script src="LETTER.JS"></script>
+    
 </body>
 
 </html>
